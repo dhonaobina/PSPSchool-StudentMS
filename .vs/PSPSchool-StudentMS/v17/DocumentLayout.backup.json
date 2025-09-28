@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\helpers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\helpers.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\models.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\include\\models.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\services.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\include\\services.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\db.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\db.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\validation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5FC1B728-7E89-45A0-987D-3E5A015BC77D}|PSPSchool-StudentMS\\PSPSchool-StudentMS.vcxproj|solutionrelative:PSPSchool-StudentMS\\validation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 154,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "db.cpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.cpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\db.cpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.cpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\db.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAF0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-27T02:36:29.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "helpers.cpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.cpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\helpers.cpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.cpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\helpers.cpp",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-27T02:11:37.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "validation.hpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\validation.hpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\validation.hpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\validation.hpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\validation.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-27T00:12:13.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "helpers.hpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.hpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\helpers.hpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\helpers.hpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\helpers.hpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-27T02:02:49.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "db.hpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.hpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\db.hpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\db.hpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\db.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-26T21:15:16.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "services.hpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\services.hpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\include\\services.hpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\services.hpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\include\\services.hpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-26T20:33:41.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "models.hpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\models.hpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\include\\models.hpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\include\\models.hpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\include\\models.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-26T20:32:14.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PSPSchool-StudentMS.cpp",
+              "DocumentMoniker": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp",
+              "RelativeDocumentMoniker": "PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp",
+              "ToolTip": "C:\\SD105-StudentManageSystem\\PSPSchool-StudentMS\\PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp",
+              "RelativeToolTip": "PSPSchool-StudentMS\\PSPSchool-StudentMS.cpp",
+              "ViewState": "AgIAAJoBAAAAAAAAAAAAAKkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-08T07:59:04.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

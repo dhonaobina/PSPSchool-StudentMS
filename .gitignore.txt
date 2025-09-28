@@ -1,10 +1,13 @@
-# Ignore Visual Studio temporary files
+# Ignore Visual Studio cache and build files
 .vs/
-*.vsidx
-*.user
-*.suo
-*.cache
+*.ipch
 *.db
 *.opendb
+*.VC.db
+*.VC.opendb
+*.pdb
+*.obj
+*.exe
+*.log
 bin/
 obj/
