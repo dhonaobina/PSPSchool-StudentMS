@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/SD105-StudentManageSystem/PSPSchool-StudentMS/PSPSchool-StudentMS/school.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2098"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="courses" custom_title="0" dock_id="1" table="4,7:maincourses"/><dock_state state="000000ff00000000fd00000001000000020000043c000002b6fc0100000001fb000000160064006f0063006b00420072006f007700730065003101000000000000043c0000011800ffffff000002580000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="courses" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="54"/><column index="2" value="148"/><column index="3" value="257"/><column index="4" value="101"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="grades" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="49"/><column index="2" value="80"/><column index="3" value="87"/><column index="4" value="69"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="students" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="47"/><column index="2" value="117"/><column index="3" value="195"/><column index="4" value="93"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">PRAGMA foreign_keys = ON;
+
+-- If you are re-running this script, these drops will clear the old data.
+DROP TABLE IF EXISTS grades;
+DROP TABLE IF EXISTS students;
+DROP TABLE IF EXISTS courses;
+
+-- Create tables
+CREATE TABLE students (
+  roll_no   TEXT PRIMARY KEY,
+  name      TEXT NOT NULL,
+  address   TEXT,
+  contact   TEXT
+);
+
+CREATE TABLE courses (
+  code        TEXT PRIMARY KEY,
+  title       TEXT NOT NULL,
+  description TEXT,
+  teacher     TEXT
+);
+
+CREATE TABLE grades (
+  roll_no       TEXT NOT NULL,
+  course_code   TEXT NOT NULL,
+  internal_mark REAL NOT NULL DEFAULT 0,
+  final_mark    REAL NOT NULL DEFAULT 0,
+  PRIMARY KEY (roll_no, course_code),
+  FOREIGN KEY (roll_no) REFERENCES students(roll_no) ON DELETE CASCADE,
+  FOREIGN KEY (course_code) REFERENCES courses(code) ON DELETE CASCADE
+);
+
+-- Insert 5 students (NZ primary school style)
+INSERT INTO students VALUES
+ ('S001','Amelia Brown','12 Kowhai St, Pokeno','021-100-200'),
+ ('S002','Lucas Smith','23 Rimu Rd, Pokeno','021-200-300'),
+ ('S003','Isla Taylor','45 Totara Ave, Pokeno','021-300-400'),
+ ('S004','Mason Wilson','67 Pohutukawa Dr, Pokeno','021-400-500'),
+ ('S005','Olivia Johnson','89 Nikau Cres, Pokeno','021-500-600');
+
+-- Insert 5 courses
+INSERT INTO courses VALUES
+ ('ENG101','English','Reading, writing, and speaking','Mrs. Clarke'),
+ ('MTH101','Mathematics','Numbers, shapes, problem solving','Mr. Patel'),
+ ('SCI101','Science','Exploring nature and experiments','Ms. Robinson'),
+ ('ART101','Art','Drawing, painting, and crafts','Mr. Edwards'),
+ ('PE101','Physical Education','Games, fitness, teamwork','Ms. Harris');
+
+-- Insert 5 grades (each student enrolled in one course)
+INSERT INTO grades VALUES
+ ('S001','ENG101',78,85),
+ ('S002','MTH101',65,72),
+ ('S003','SCI101',90,88),
+ ('S004','ART101',70,75),
+ ('S005','PE101',82,91);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
