@@ -46,3 +46,7 @@ This project was developed as part of a software development assessment to demon
 2. Build with a C++ compiler (g++ / clang++) linking `sqlite3`:  
    ```bash
    g++ PSPSchool-StudentMS.cpp db.cpp -lsqlite3 -o sms
+3. Run the Program:
+   ```bash
+   ./sms
+Would you like me to extend this with a **📌 Future Improvements** section so your repo looks even more professional (e.g., GUI support, CSV export, authentication)?
